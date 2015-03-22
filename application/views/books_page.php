@@ -36,7 +36,7 @@
             <p><i>Posted on <?= $review['created_at']; ?></i></p>
 <?php       if($review['user_id'] == $this->session->userdata('user_id'))
             {
-?>            <a href="/destroyReview/<?= ?>"><button class="btn btn-danger">Delete this Review</button></a>
+?>            <a href="#"><button class="btn btn-danger">Delete this Review</button></a>
 <?php       }
 ?>
           </div>
